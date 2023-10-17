@@ -1,19 +1,13 @@
 package Day4;
 
+import static io.restassured.RestAssured.given;
+
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo.As;
-
 import io.restassured.http.ContentType;
-import io.restassured.internal.http.Status;
 import io.restassured.response.Response;
-
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
-
-import org.json.JSONObject;
 
 
 public class parsingJSONResponseData {
